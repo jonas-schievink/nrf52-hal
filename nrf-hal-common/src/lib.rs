@@ -45,6 +45,7 @@ pub mod gpiote;
 pub mod i2s;
 #[cfg(not(any(feature = "52811", feature = "52810", feature = "9160")))]
 pub mod lpcomp;
+pub mod nfct;
 #[cfg(not(feature = "9160"))]
 pub mod ppi;
 #[cfg(not(any(feature = "51", feature = "52832", feature = "9160")))]
